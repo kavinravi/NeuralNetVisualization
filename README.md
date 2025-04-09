@@ -1,6 +1,19 @@
 # NeuralNetVisualization
 A way to visualize/animate a neural network approximating a function in realtime
 
+## Packages/imports:
+NNVis.py:
+- numpy
+- pytorch
+- pyplot (through matplotlib)
+
+
+NNVisManim.py:
+- numpy
+- manim
+- tensorflow
+- keras
+
 Both start by randomizing a sinusoidal function, given by
 ```
 x_data = np.random.uniform(-2 * np.pi, 2 * np.pi, 100).reshape(-1, 1)
